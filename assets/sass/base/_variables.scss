@@ -1,0 +1,62 @@
+//Font Family 
+$poppins: 'Poppins',
+sans-serif;
+// body color
+$body-color: #2F2F2F;
+// heading color
+$heading_2-color: #040410;
+$heading-color: #11231C;
+
+/* Common Color */
+
+$white_color: #FFFFFF;
+$black: #040410;
+$gray: #eee;
+
+/* Theme Color */
+
+$primary-color: #29D1DA;
+$primary-bg: #29D1DA;
+$header_top_bg: #29D1DA;
+$header_phone_text_color: #707070;
+$menu_border_bottom: #686161;
+$gray: #ddd;
+$overlay: #484D5B;
+$slider-before_color: #EEF1F5;
+$service_icon_color: #FEE7E7;
+$service_icon_hover_color: #F64F4F;
+$choose_bg: #0F1327;
+$choose_icon: #2E3243;
+$border_black_soft: #4E5267;
+$testimonials_des_color: #5C727D;
+$contact_shado: #EBEBF4;
+$brans_border_color: #EAEAEA;
+$blog-border: #E1E1E1;
+$blog-meta: #7E7E7E;
+$placeholder_color: #5C727D;
+$gray_bg: #F7F7F7;
+$bolog-border-color: #E7E7E7;
+$bolog-content-shado: rgba(11, 0, 59, 0.15);
+$bolog-sahir-icon-bg: #EDEDED;
+$bolog-sahir-icon-color: #7A8A9E;
+$bolog-quote-img-opacity: #E53E29;
+$bolog-sidebar-input-bg: #F2F6F7;
+$bolog-sidebar-post-color: #133344;
+$bolog-sidebar-cat-bg: #D61212;
+$bolog-comments-bg: #F4F4F9;
+$bolog-comments-req-text: #133344;
+$bolog-comments-input-border: #133344;
+$service_detail_sec-bg: #F5F5F5;
+$btn_backgrond: #F31717;
+$btn_color: #FFFFFF;
+$btn_icon-bg: #ffffff38;
+$link_hover: #29D1DA;
+
+/* Responsive Variables */
+
+$extra-big-device: '(min-width: 1450px) ';
+$xl-device: 'only screen and (min-width: 1200px) and (max-width: 1450px)';
+$lg-device: 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$md-device:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xsm-device:'(max-width: 767px)';
+$sm-device: 'only screen and (min-width: 576px) and (max-width: 767px)';

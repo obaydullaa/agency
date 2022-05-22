@@ -1,0 +1,67 @@
+/*============**  About Area  **============*/
+
+.creative-left {
+    &___main-thumb {
+        position: relative;
+        z-index: 1;
+        & img {
+            @media #{$md-device} {
+                width: 100%;
+            }
+        }
+        & .play-btn {
+            position: absolute;
+            height: 72px;
+            width: 76px;
+            line-height: 72px;
+            text-align: center;
+            color: $primary-color;
+            font-size: 14px;
+            font-weight: 600;
+            background-color: $white_color;
+            top: 43%;
+            right: 43%;
+            transform: translate(-50%, -50%);
+            transition: all .3s ease-in-out;
+            z-index: 2;
+            @media #{$lg-device} {
+                right: 39%;
+            }
+            @media #{$md-device} {
+                right: 39%;
+            }
+            @media #{$xsm-device} {
+                right: 39%;
+            }
+            &:hover {
+                background-color: $primary-color;
+                color: $white_color;
+            }
+        }
+    }
+}
+
+.creative-right {
+    .section-title-wrap {
+        h4 {
+            text-transform: capitalize;
+        }
+    }
+    &__deatils {
+        margin-bottom: 40px;
+        padding-right: 102px;
+    }
+    &__desc {
+        padding-right: 55px;
+    }
+}
+
+// @media #{$lg-device} {
+//     .about-right {
+//         & .section-title-wrap {
+//             &__title {
+//                 font-size: 35px;
+//             }
+//         }
+//     }
+// }

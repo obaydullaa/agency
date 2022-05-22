@@ -1,0 +1,51 @@
+.about_left {
+    padding-top: 30px;
+    .about-details {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 1px;
+            background: #29d1da;
+            left: 47%;
+            top: 0;
+            height: 93%;
+        }
+        .single-about {
+            .single-about {
+                &__title {
+                    padding-right: 8px;
+                    h4 {
+                        font-size: 24px;
+                        font-weight: 600;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+        .single-details {
+            border-bottom: 1px solid #29d1da;
+            margin-bottom: 25px;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.about-right {
+    position: relative;
+    .about-play-btn {
+        position: absolute;
+        right: 43%;
+        z-index: 4;
+        top: 43%;
+        height: 80px;
+        width: 80px;
+        background: #FFFFFF;
+        text-align: center;
+        line-height: 80px;
+        border-radius: 50%;
+        color: #29D1DA;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}

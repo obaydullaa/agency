@@ -1,0 +1,87 @@
+/*============**   Slider Area **============*/
+
+.slider-area {
+    height: 925px;
+    position: relative;
+    overflow: hidden;
+    &.slider-bg {
+        background-image: url(assets/img/slider/slider_01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    @media #{$lg-device} {
+        height: 750px;
+    }
+    @media #{$md-device} {
+        height: 670px;
+    }
+    @media #{$xsm-device} {
+        height: 630px;
+    }
+    & .slider-shape-01 {
+        position: absolute;
+        left: 54%;
+        top: 11%;
+        z-index: 2;
+        @media #{$xl-device} {
+            left: 47%;
+            top: 17%;
+        }
+        @media #{$lg-device} {
+            left: 29%;
+            top: 11%;
+        }
+        @media #{$md-device} {
+            left: -6%;
+            top: 46%;
+        }
+    }
+    &::after {
+        @include afbf;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: $primary-bg;
+        opacity: 70%;
+        z-index: 1;
+    }
+    .slider-content {
+        margin-top: 125px;
+        position: relative;
+        text-align: center;
+        z-index: 3;
+        @media #{$md-device} {
+            margin-top: 60px;
+        }
+        @media #{$xsm-device} {
+            margin-top: 30px;
+        }
+        &__title {
+            font-size: 65px;
+            color: $white_color;
+            margin-bottom: 22px;
+            @media #{$lg-device} {
+                font-size: 52px;
+            }
+            @media #{$md-device} {
+                font-size: 56px;
+            }
+            @media #{$xsm-device} {
+                font-size: 28px;
+            }
+            @media #{$sm-device} {
+                font-size: 39px;
+            }
+        }
+        &__desc {
+            margin-bottom: 55px;
+            padding: 0 50px;
+            color: $white_color;
+            @media #{$xsm-device} {
+                padding: 0 0px;
+            }
+        }
+    }
+}

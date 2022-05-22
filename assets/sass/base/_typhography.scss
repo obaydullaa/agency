@@ -1,0 +1,92 @@
+/*============**  Typhography Area  **============*/
+
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=PT+Serif:wght@400;700&display=swap');
+body {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: $poppins;
+    color: $body-color;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    color: $body-color;
+    margin-bottom: 15px;
+    font-family: $poppins;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $poppins;
+    font-weight: normal;
+    color: $heading-color;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 600px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+label {
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
